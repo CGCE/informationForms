@@ -1,0 +1,86 @@
+body {
+	margin: 10px 150px 0px 100px;
+	font-family: times;
+	}
+}
+
+h1 {
+	margin: 0px 0px 0px 0px;
+	font-size:20pt;
+	}
+
+h2 {
+	text-align:center;
+	font-size:14pt;
+	}
+
+input[type=text],textarea {
+	width:500px;
+	font-family: times;
+	font-size:11pt;
+	}
+	
+table
+	{
+	width:750px;
+	}
+tr {
+	vertical-align:top;
+	}
+
+td {
+	width:250px;
+	text-align:left;
+	}
+
+#entete{
+	text-align:center;
+	color:#014890;
+	/*border-right: 1px solid #014890;*/
+	}
+
+#entete2 {
+	color:#014890;
+	}
+	
+hr{
+	color:#014890;
+	width:90%;
+	}
+
+#calendrier {
+	position:absolute;
+	width:200px;
+	height:175px;
+	background:#FFF;
+	display:none;
+	}
+
+.marge1 {
+	margin-left:30px;
+	}
+
+.result {
+	font-weight:bold;
+	color:#000;
+	}
+
+	
+@media print {
+	body {
+		margin: 10px 10px 0px 10px;
+		font-family: times;
+		font-size:11pt;
+		}
+	h1 {
+		font-size:16pt;
+		}
+
+	h2 {
+		font-size:12pt;
+		}
+
+	.noprint {
+		display:none;
+		}
+	}
